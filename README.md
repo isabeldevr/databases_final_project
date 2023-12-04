@@ -34,4 +34,27 @@ Ensure you have the following installed:
 
 5. MongoDB Configuration: Verify that MongoDB is operational and reachable.
 
+## Usage
+
+### Ingredient Scraping
+
+1. Use the Edamam API to scrape ingredients for sushi items.
+2. Store the scraped data in a JSON file.
+
+### Data Generation and Population
+
+1. Creating the menu items and ingredients, run the Python script.
+2. Adding this information to the Django application database.
+
+## Data Models
+
+The app makes use of models to depict various elements of the sushi menu:
+
+- {MenuItem}: Identifies a menu item.
+- {IngredientType}: Information about the components that go into a dish.
+- {MenuIngredient}: Connects menu items and ingredients.
+- {Order} and {Payment}: Handle payments and orders from clients.
+
+
+
 
