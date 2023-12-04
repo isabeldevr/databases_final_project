@@ -55,6 +55,13 @@ The app makes use of models to depict various elements of the sushi menu:
 - {MenuIngredient}: Connects menu items and ingredients.
 - {Order} and {Payment}: Handle payments and orders from clients.
 
+## Acknowledgments
+
+- [Edamam](https://www.edamam.com/) for providing the recipe API.
+- [Faker](https://faker.readthedocs.io/) for generating fake data.
+- [Django](https://www.djangoproject.com/) for the web framework.
+
+
 
 
 
