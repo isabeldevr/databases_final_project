@@ -34,6 +34,8 @@ Ensure you have the following installed:
 
 5. MongoDB Configuration: Verify that MongoDB is operational and reachable.
 
+6. Data Normalization: To ensure data normalization in MySQL, unstructured data is managed in MongoDB.
+
 ## Usage
 
 ### Ingredient Scraping
